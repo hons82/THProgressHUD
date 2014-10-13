@@ -48,7 +48,7 @@ Or copy the `THProgressHUD/` directory from this repo into your project.
 ```objective-c
 [ProgressHUD dismiss];
 ```
-`
+
 #Contributions
 
 ...are really welcome. If you have an idea just fork the library change it and if its useful for others and not affecting the functionality of the library for other users I'll insert it
