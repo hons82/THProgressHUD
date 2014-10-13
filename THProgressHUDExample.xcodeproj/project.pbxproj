@@ -14,6 +14,8 @@
 		99C1693E19EC192000E78128 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C1693D19EC192000E78128 /* Images.xcassets */; };
 		99C1694119EC192000E78128 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C1693F19EC192000E78128 /* LaunchScreen.xib */; };
 		99C1694D19EC192000E78128 /* THProgressHUDExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C1694C19EC192000E78128 /* THProgressHUDExampleTests.m */; };
+		99C1695919EC1ABB00E78128 /* THProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C1695819EC1ABB00E78128 /* THProgressHUD.m */; };
+		99C1695B19EC298E00E78128 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C1695A19EC298E00E78128 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		99C1694619EC192000E78128 /* THProgressHUDExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THProgressHUDExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C1694B19EC192000E78128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99C1694C19EC192000E78128 /* THProgressHUDExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THProgressHUDExampleTests.m; sourceTree = "<group>"; };
+		99C1695719EC1ABB00E78128 /* THProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THProgressHUD.h; sourceTree = "<group>"; };
+		99C1695819EC1ABB00E78128 /* THProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THProgressHUD.m; sourceTree = "<group>"; };
+		99C1695A19EC298E00E78128 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,7 @@
 		99C1692419EC191F00E78128 = {
 			isa = PBXGroup;
 			children = (
+				99C1695619EC1A7B00E78128 /* THProgressHUD */,
 				99C1692F19EC191F00E78128 /* THProgressHUDExample */,
 				99C1694919EC192000E78128 /* THProgressHUDExampleTests */,
 				99C1692E19EC191F00E78128 /* Products */,
@@ -117,6 +123,16 @@
 				99C1694B19EC192000E78128 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99C1695619EC1A7B00E78128 /* THProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				99C1695719EC1ABB00E78128 /* THProgressHUD.h */,
+				99C1695819EC1ABB00E78128 /* THProgressHUD.m */,
+				99C1695A19EC298E00E78128 /* Images.xcassets */,
+			);
+			path = THProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99C1693C19EC192000E78128 /* Main.storyboard in Resources */,
+				99C1695B19EC298E00E78128 /* Images.xcassets in Resources */,
 				99C1694119EC192000E78128 /* LaunchScreen.xib in Resources */,
 				99C1693E19EC192000E78128 /* Images.xcassets in Resources */,
 			);
@@ -219,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99C1695919EC1ABB00E78128 /* THProgressHUD.m in Sources */,
 				99C1693919EC192000E78128 /* ViewController.m in Sources */,
 				99C1693619EC192000E78128 /* AppDelegate.m in Sources */,
 				99C1693319EC192000E78128 /* main.m in Sources */,
@@ -297,7 +315,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -332,7 +350,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
