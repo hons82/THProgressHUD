@@ -20,7 +20,7 @@ Install with [CocoaPods](http://cocoapods.org) by adding the following to your P
 
 ``` ruby
 platform :ios, '7.0'
-pod 'THProgressHUD', '~> 1.0.0'
+pod 'THProgressHUD', '~> 1.0.1'
 ```
 
 **Note**: We follow http://semver.org for versioning the public API.
